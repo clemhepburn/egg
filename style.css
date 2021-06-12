@@ -17,9 +17,37 @@ header {
   padding-left: 1rem;
 }
 
+.logo {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 3rem;
+  padding: 0.3rem;
+  margin: 0.5rem;
+  /* rgb(225, 215, 216) */
+}
+
 nav {
   display: flex;
-  width: 20vw;
+  justify-content: space-between;
+  width: 100%;
+  
+}
+
+.auth {
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+
+}
+
+.auth a {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.auth a:hover {
+  background-color: blanchedalmond;
 }
 
 nav .field {
@@ -28,7 +56,7 @@ nav .field {
 
 .title {
   display: flex;
-  width: 20vw;
+  width: 60vw;
   margin-left: .2rem;
 }
 
@@ -82,7 +110,9 @@ h1 {
 
 main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding-top: 2rem;
 }
 
@@ -113,6 +143,22 @@ main {
   border-radius: 50%;
   margin: 0;
   padding: 0;
+}
+
+.egg-nav {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.next {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: normal;
+  font-size: 1.2rem;
+  background-color: rgb(147, 218, 147);
+  line-height: normal;
+
 }
 
 .egg-content {
